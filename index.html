@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="ifa.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<title>IFA</title>
+
+</head>
+
+<body class="home">
+		<div style='position:absolute;z-index:0;left:0;top:0;width:100%;height:100%'>
+			<div class="ifahometextcontainer">
+				<p class="ifahometext">IFA</p>
+				<p class="ifasubtext">
+					Information for Action
+				</p>
+				<ul class="main">
+					<li class="main">About</li>
+				</ul>
+			</div>
+		</div>
+			
+			<script>
+				$(document).ready(function() {
+					$(".main").click(function(){
+				        $(".top").fadeIn(1500);
+				        $(".middle").fadeIn(2000);
+				        $(".bottom").fadeIn(2500);
+				        $(".videocontainer").show();
+				        $(".video").play();
+				    });
+				});
+			</script>
+		</div>	
+
+	<div class="videocontainer">
+		<video controls muted display none autoplay loop class="video">
+  			<source src="crane.mov" type="video/mp4">
+  			<source src="crane.ogg" type="video/ogg">
+  			Your browser does not support the video tag.
+		</video>
+	</div>
+	<div class="top">
+		<h1>Social Impact</h1>
+		<p class="narrative">
+			Lorem ipsum dolor sit amet, an eros ancillae vim. Postea ornatus efficiantur eos ea, perpetua adipiscing id per. Quo te amet debitis, nec at rebum salutandi intellegat. Homero nominati id sea.
+		</p>
+	</div>
+	<div class="middle">
+		<h1>Data Journalism</h1>
+		<p class="narrative">
+			Lorem ipsum dolor sit amet, an eros ancillae vim. Postea ornatus efficiantur eos ea, perpetua adipiscing id per. Quo te amet debitis, nec at rebum salutandi intellegat. Homero nominati id sea.
+		</p>
+	</div>
+
+	<div class="bottom">
+		<h1>Data Journalism</h1>
+		<p class="narrative">
+			Lorem ipsum dolor sit amet, an eros ancillae vim. Postea ornatus efficiantur eos ea, perpetua adipiscing id per. Quo te amet debitis, nec at rebum salutandi intellegat. Homero nominati id sea.
+		</p>
+	</div>
+	
+
+	
+	
+
+	<div class="#">
+		<p class="#">
+			
+		</p>
+
+	</div>
+
+	<div id="footer">
+		<p class="maincontentright">
+					</p>
+
+	</div>
+
+</div>
+</body>
+
+</html>
